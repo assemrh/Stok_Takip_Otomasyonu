@@ -56,18 +56,18 @@ namespace Stok_Takip_Otomasyonu
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(63, 104);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(46, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
+            this.label1.Text = "Kategori";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(66, 129);
+            this.label2.Location = new System.Drawing.Point(63, 130);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "label2";
+            this.label2.Text = "Marka";
             // 
             // button1
             // 
@@ -75,7 +75,7 @@ namespace Stok_Takip_Otomasyonu
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
+            this.button1.Text = "Ekle";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // frmMarka

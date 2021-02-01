@@ -25,20 +25,37 @@ namespace Stok_Takip_Otomasyonu
         }
 
 
-        private void button8_Click(object sender, EventArgs e)
+        private void btnMusteriEkle_Click(object sender, EventArgs e)
         {
             frmMusteriEkle mEkle = new frmMusteriEkle();
             mEkle.ShowDialog();
         }
 
 
-        private void button7_Click(object sender, EventArgs e)
+        private void btnKategori_Click(object sender, EventArgs e)
+        {
+            frmKategori kEkle = new frmKategori();
+            kEkle.ShowDialog();
+        }
+
+        private void btnMarka_Click(object sender, EventArgs e)
+        {
+            frmMarka mEkle = new frmMarka();
+            mEkle.ShowDialog();
+        }
+
+        private void btnUrunListeleme_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnMusteriListeleme_Click(object sender, EventArgs e)
         {
             frmMusteriListele mListele = new frmMusteriListele();
             mListele.ShowDialog();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void btnUrunEkleme_Click(object sender, EventArgs e)
         {
             frmUrunEkle uEkle = new frmUrunEkle();
             uEkle.ShowDialog();

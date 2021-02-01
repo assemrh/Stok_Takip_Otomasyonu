@@ -55,12 +55,14 @@ namespace Stok_Takip_Otomasyonu
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnMusteriEkle = new System.Windows.Forms.Button();
+            this.btnMusteriListeleme = new System.Windows.Forms.Button();
+            this.btnUrunEkleme = new System.Windows.Forms.Button();
+            this.btnUrunListeleme = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
+            this.btnMarka = new System.Windows.Forms.Button();
+            this.btnKategori = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -293,54 +295,57 @@ namespace Stok_Takip_Otomasyonu
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button8);
-            this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.btnMusteriEkle);
+            this.panel1.Controls.Add(this.btnMusteriListeleme);
+            this.panel1.Controls.Add(this.btnKategori);
+            this.panel1.Controls.Add(this.btnMarka);
+            this.panel1.Controls.Add(this.btnUrunEkleme);
+            this.panel1.Controls.Add(this.btnUrunListeleme);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(962, 81);
             this.panel1.TabIndex = 9;
             // 
-            // button8
+            // btnMusteriEkle
             // 
-            this.button8.Location = new System.Drawing.Point(42, 12);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(114, 60);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "Müşteri Ekleme";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.btnMusteriEkle.Location = new System.Drawing.Point(42, 12);
+            this.btnMusteriEkle.Name = "btnMusteriEkle";
+            this.btnMusteriEkle.Size = new System.Drawing.Size(114, 60);
+            this.btnMusteriEkle.TabIndex = 0;
+            this.btnMusteriEkle.Text = "Müşteri Ekleme";
+            this.btnMusteriEkle.UseVisualStyleBackColor = true;
+            this.btnMusteriEkle.Click += new System.EventHandler(this.btnMusteriEkle_Click);
             // 
-            // button7
+            // btnMusteriListeleme
             // 
-            this.button7.Location = new System.Drawing.Point(205, 12);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(114, 60);
-            this.button7.TabIndex = 0;
-            this.button7.Text = "Müşteri Listeleme";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.btnMusteriListeleme.Location = new System.Drawing.Point(195, 12);
+            this.btnMusteriListeleme.Name = "btnMusteriListeleme";
+            this.btnMusteriListeleme.Size = new System.Drawing.Size(114, 60);
+            this.btnMusteriListeleme.TabIndex = 0;
+            this.btnMusteriListeleme.Text = "Müşteri Listeleme";
+            this.btnMusteriListeleme.UseVisualStyleBackColor = true;
+            this.btnMusteriListeleme.Click += new System.EventHandler(this.btnMusteriListeleme_Click);
             // 
-            // button6
+            // btnUrunEkleme
             // 
-            this.button6.Location = new System.Drawing.Point(471, 12);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(114, 60);
-            this.button6.TabIndex = 0;
-            this.button6.Text = "Ürün Ekleme";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnUrunEkleme.Location = new System.Drawing.Point(348, 12);
+            this.btnUrunEkleme.Name = "btnUrunEkleme";
+            this.btnUrunEkleme.Size = new System.Drawing.Size(114, 60);
+            this.btnUrunEkleme.TabIndex = 0;
+            this.btnUrunEkleme.Text = "Ürün Ekleme";
+            this.btnUrunEkleme.UseVisualStyleBackColor = true;
+            this.btnUrunEkleme.Click += new System.EventHandler(this.btnUrunEkleme_Click);
             // 
-            // button5
+            // btnUrunListeleme
             // 
-            this.button5.Location = new System.Drawing.Point(627, 12);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(114, 60);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "Ürün Listeleme";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnUrunListeleme.Location = new System.Drawing.Point(501, 12);
+            this.btnUrunListeleme.Name = "btnUrunListeleme";
+            this.btnUrunListeleme.Size = new System.Drawing.Size(114, 60);
+            this.btnUrunListeleme.TabIndex = 0;
+            this.btnUrunListeleme.Text = "Ürün Listeleme";
+            this.btnUrunListeleme.UseVisualStyleBackColor = true;
+            this.btnUrunListeleme.Click += new System.EventHandler(this.btnUrunListeleme_Click);
             // 
             // button4
             // 
@@ -359,6 +364,26 @@ namespace Stok_Takip_Otomasyonu
             this.label10.Size = new System.Drawing.Size(41, 13);
             this.label10.TabIndex = 10;
             this.label10.Text = "label10";
+            // 
+            // btnMarka
+            // 
+            this.btnMarka.Location = new System.Drawing.Point(724, 12);
+            this.btnMarka.Name = "btnMarka";
+            this.btnMarka.Size = new System.Drawing.Size(84, 60);
+            this.btnMarka.TabIndex = 0;
+            this.btnMarka.Text = "Marka";
+            this.btnMarka.UseVisualStyleBackColor = true;
+            this.btnMarka.Click += new System.EventHandler(this.btnMarka_Click);
+            // 
+            // btnKategori
+            // 
+            this.btnKategori.Location = new System.Drawing.Point(642, 12);
+            this.btnKategori.Name = "btnKategori";
+            this.btnKategori.Size = new System.Drawing.Size(76, 60);
+            this.btnKategori.TabIndex = 0;
+            this.btnKategori.Text = "Kategori";
+            this.btnKategori.UseVisualStyleBackColor = true;
+            this.btnKategori.Click += new System.EventHandler(this.btnKategori_Click);
             // 
             // frmSatis
             // 
@@ -420,12 +445,14 @@ namespace Stok_Takip_Otomasyonu
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnMusteriEkle;
+        private System.Windows.Forms.Button btnMusteriListeleme;
+        private System.Windows.Forms.Button btnUrunEkleme;
+        private System.Windows.Forms.Button btnUrunListeleme;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btnKategori;
+        private System.Windows.Forms.Button btnMarka;
     }
 }
 
